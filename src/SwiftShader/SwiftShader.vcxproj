@@ -317,9 +317,7 @@
     <ClCompile Include="..\Common\Socket.cpp" />
     <ClCompile Include="..\Common\Thread.cpp" />
     <ClCompile Include="..\Main\Config.cpp" />
-    <ClCompile Include="..\Main\crc.cpp" />
     <ClCompile Include="..\Main\FrameBufferWin.cpp" />
-    <ClCompile Include="..\Main\Register.cpp" />
     <ClCompile Include="..\Shader\Constants.cpp" />
     <ClCompile Include="..\Shader\PixelRoutine.cpp" />
     <ClCompile Include="..\Shader\PixelShader.cpp" />
@@ -370,8 +368,6 @@
     <ClCompile Include="..\Main\FrameBuffer.cpp" />
     <ClCompile Include="..\Main\FrameBufferDD.cpp" />
     <ClCompile Include="..\Main\FrameBufferGDI.cpp" />
-    <ClCompile Include="..\Main\Logo.cpp" />
-    <ClCompile Include="..\Main\serialvalid.cpp" />
     <ClCompile Include="..\Main\SwiftConfig.cpp" />
     <ClCompile Include="..\Common\Configurator.cpp" />
     <ClCompile Include="..\Common\CPUID.cpp" />
@@ -388,7 +384,6 @@
     <ClInclude Include="..\Common\Thread.hpp" />
     <ClInclude Include="..\Common\Version.h" />
     <ClInclude Include="..\Main\FrameBufferWin.hpp" />
-    <ClInclude Include="..\Main\Register.hpp" />
     <ClInclude Include="..\Renderer\RoutineCache.hpp" />
     <ClInclude Include="MemoryManager.hpp" />
     <ClInclude Include="..\Shader\Constants.hpp" />
@@ -424,12 +419,9 @@
     <ClInclude Include="..\Renderer\Vertex.hpp" />
     <ClInclude Include="..\Renderer\VertexProcessor.hpp" />
     <ClInclude Include="..\Main\Config.hpp" />
-    <ClInclude Include="..\Main\crc.h" />
     <ClInclude Include="..\Main\FrameBuffer.hpp" />
     <ClInclude Include="..\Main\FrameBufferDD.hpp" />
     <ClInclude Include="..\Main\FrameBufferGDI.hpp" />
-    <ClInclude Include="..\Main\serialcommon.h" />
-    <ClInclude Include="..\Main\serialvalid.h" />
     <ClInclude Include="..\Main\SwiftConfig.hpp" />
     <ClInclude Include="..\Common\Configurator.hpp" />
     <ClInclude Include="..\Common\CPUID.hpp" />

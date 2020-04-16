@@ -12,7 +12,6 @@
 #include "Direct3D9Ex.hpp"
 
 #include "Direct3DDevice9Ex.hpp"
-#include "SwiftShader.hpp"
 #include "Debug.hpp"
 
 namespace sw
@@ -41,14 +40,6 @@ namespace D3D9
 		{
 			AddRef();
 			*object = this;
-
-			return S_OK;
-		}
-		else if(iid == IID_SwiftShaderPrivateV1)
-		{
-			SwiftShader *swiftShader = new SwiftShader(this);
-
-			*object = swiftShader;
 
 			return S_OK;
 		}
